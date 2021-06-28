@@ -1,0 +1,1 @@
+This is my first attempt at copying the Google Homepage as an understanding of HTML and CSS.
