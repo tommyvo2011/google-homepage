@@ -18,21 +18,24 @@
             position:absolute;
             top:0px;
             right:0px;
-        }
-        .googlepic{
-           text-align:center;
-           top:50%;
-           left:50%;
+            text-align: right;
         }
         .googleapps{
             width:20px;
             height:20px;
+            margin:10px;
             position:center;
         }
         .signin{
             background-color:cyan;
             border-radius: 15px;
             box-shadow: 0px;
+        }
+        #searchentire{
+            position:absolute;
+            top:50%;
+            left:50%;
+            text-align: center;
         }
     </style>
 
@@ -56,6 +59,7 @@
                         <form action="google.com">
                             <button class="signin">Sign In</button>
                         </form>
+                    </li>
             </div>
         </div>   
     <div id="searchentire">     
@@ -69,8 +73,8 @@
         </div>
         <div class="searchbuttons">
             <form action=google.com>
-                <button>Google Search</button>
-                <button>I'm Feeling Lucky</button>
+                <button id="search_button">Google Search</button>
+                <button id="lucky">I'm Feeling Lucky</button>
             </form>
         </div>
     </div>
